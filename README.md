@@ -5,7 +5,7 @@ An experience for Google Cloud Vision API
 Get your credential key to make `./key.json`.
 
 ```shell-session
-$ gcloud iam service-accounts create vision-quickstart --project <your-project-id}
+$ gcloud iam service-accounts create vision-quickstart --project <your-project-id>
 $ gcloud iam service-accounts keys create key.json --iam-account vision-quickstart@<your-project-id>.iam.gserviceaccount.com
 $ export GOOGLE_APPLICATION_CREDENTIALS=key.json
 ```
