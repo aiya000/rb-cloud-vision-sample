@@ -15,6 +15,5 @@ Please also see [the document](https://cloud.google.com/docs/authentication/prod
 ## Execute
 
 ```shell-session
-$ cd label_detection  # Change directory to anywhere
-$ bundle exec ruby main.rb
+$ bundle exec ruby label_detection/main.rb  # Specify anywhere
 ```
